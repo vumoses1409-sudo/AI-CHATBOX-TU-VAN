@@ -1,0 +1,21 @@
+{
+  "name": "lac-lac-openai-mysql",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lạc Lạc — AI Chat Box Tâm Lí, giao diện HTML, OpenAI Responses API, MySQL tùy chọn",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "mysql2": "^3.14.3",
+    "openai": "^6.0.0"
+  }
+}
